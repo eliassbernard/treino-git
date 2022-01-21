@@ -22,3 +22,4 @@ git add index.html - para marcar o arquivo para ser salvo (commitado)
 
 git add. - para marcar todos arquivos da pasta
 
+git commit -m "Criando arquivo index.html com lista de cursos" Para criar o commit
