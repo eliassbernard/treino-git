@@ -1,0 +1,24 @@
+Caminho - C:/Trabalhos2021/Treinamentos/aluragit/
+
+ESTADOS (DEFINIÇÕES)
+ 
+HEAD: Estado atual do nosso código, ou seja, onde o Git os colocou
+
+Working tree: Local onde os arquivos realmente estão sendo armazenados e editados
+
+index: Local onde o Git armazena o que será commitado, ou seja, o local entre a working tree e o repositório Git em si.
+ 
+Detalhes:  linkhttps://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Altera%C3%A7%C3%B5es-em-Seu-Reposit%C3%B3rio
+
+git log help - https://devhints.io/git-log
+
+COMANDOS
+
+git init - ara inicializar um repositório Git
+
+git status - Para garantir que você está em um repositório Git 
+
+git add index.html - para marcar o arquivo para ser salvo (commitado)
+
+git add. - para marcar todos arquivos da pasta
+
