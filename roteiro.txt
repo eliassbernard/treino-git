@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cursos da Alura</title>
+    <title>Treinamento</title>
 </head>
 <body>
     <ul>
@@ -14,4 +14,5 @@
 </body>
 </html>
 
-Adicionando arquivos
+Adicionando arquivos 
+mais uma linha para treinar
