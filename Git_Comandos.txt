@@ -1,5 +1,9 @@
 Caminho - C:/Trabalhos2021/Treinamentos/aluragit/
 
+cd \ para chegar a um local
+cd .. para voltar uma pasta
+mkdir criar pasta ou arquivo
+
 ESTADOS (DEFINIÇÕES)
  
 HEAD: Estado atual do nosso código, ou seja, onde o Git os colocou
@@ -14,7 +18,7 @@ git log help - https://devhints.io/git-log
 
 COMANDOS
 
-git init - ara inicializar um repositório Git
+git init - para inicializar um repositório Git
 
 git status - Para garantir que você está em um repositório Git 
 
@@ -23,3 +27,21 @@ git add index.html - para marcar o arquivo para ser salvo (commitado)
 git add. - para marcar todos arquivos da pasta
 
 git commit -m "Criando arquivo index.html com lista de cursos" Para criar o commit
+
+git log - Para verificar as operações realizadas no git
+
+git log --oneline - Descreve o log em uma única linha
+
+git init --bare - para iniciar uma pasta pura? (entender melhor)
+
+git remote add local {caminho} - Para criar um servidor remoto (endereço da pasta criada para ser o servidor) C:\Trabalhos2021\Treinamentos\gittreino
+
+git remote (para visualizar o nome)
+
+git remote -v para verificar origem e destino 
+
+git clone {caminho} projeto - Para clonar o diretorio para sinclonização - Substitua {caminho} pelo caminho completo da pasta que criamos no primeiro passo;
+
+git remote rename origin local (Para renomear a pasta de outra pessoa para ficar igual o meu.
+
+git push local main - Executar o comando para enviar as suas modificações para o seu servidor; (Deve ser feito na pasta onde se encontra o seu projeto original);
